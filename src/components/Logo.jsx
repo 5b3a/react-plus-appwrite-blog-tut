@@ -1,9 +1,6 @@
-import React from 'react'
-
-function Logo({width = '100px'}) {
-  return (
-    <div>Logo</div>
-  )
+/* eslint-disable react/prop-types */
+function Logo({ width = "100px" }) {
+  return <div className={`${width}`}>Logo</div>;
 }
 
-export default Logo
+export default Logo;

@@ -4,8 +4,6 @@
 // import Logo from './Logo'
 // import LogoutBtn from './LogoutBtn'
 
-// export {Footer, Header, Container ,Logo, LogoutBtn}
-
 import Select from "./Select";
 import Header from "./Header";
 import Footer from "./Footer";
@@ -16,7 +14,7 @@ import LogoutBtn from "./LogoutBtn";
 import Login from "./Login";
 import Button from "./Button";
 import PostCard from "./PostCard";
-
+import RTE from './RTE'
 import Input from './Input'
 export {
   Header,
@@ -29,4 +27,5 @@ export {
   PostCard,
   Input,
   Select,
+  RTE
 };
