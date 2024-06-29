@@ -23,7 +23,7 @@ function App() {
       }
     })
     .finally(()=> setLoading(false))
-  },[])
+  },[dispatch])
 
   return !loading ? (<div className=' bg-slate-800 h-screen text-slate-100'>
     <div>
