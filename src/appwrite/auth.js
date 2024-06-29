@@ -57,6 +57,7 @@ class AUTHSERVICE {
     } catch (error) {
       console.log("Appwrite serive :: getCurrentUser :: error", error);
     }
+    return null
   }
 }
 
